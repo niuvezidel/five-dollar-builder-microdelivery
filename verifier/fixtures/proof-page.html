@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proof Snapshot Fixture</title>
+  </head>
+  <body>
+    <h1>Proof Snapshot Fixture</h1>
+    <p>Public page for verifying a compact proof bundle description.</p>
+
+    <script id="verify-data" type="application/json">
+      {
+        "taskType": "public-web-snapshot",
+        "artifact": {
+          "kind": "verification-demo",
+          "sampleCount": 4,
+          "acceptCount": 3,
+          "rejectCount": 1
+        },
+        "mechanism": {
+          "type": "deterministic-reexecution",
+          "target": "embedded-json-evidence"
+        }
+      }
+    </script>
+  </body>
+</html>

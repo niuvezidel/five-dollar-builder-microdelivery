@@ -1,0 +1,18 @@
+{
+  "name": "accept-proof-page",
+  "url": "https://raw.githubusercontent.com/niuvezidel/five-dollar-builder-microdelivery/main/verifier/fixtures/proof-page.html",
+  "expectedResult": "ACCEPT",
+  "claim": {
+    "taskType": "public-web-snapshot",
+    "artifact": {
+      "kind": "verification-demo",
+      "sampleCount": 4,
+      "acceptCount": 3,
+      "rejectCount": 1
+    },
+    "mechanism": {
+      "type": "deterministic-reexecution",
+      "target": "embedded-json-evidence"
+    }
+  }
+}

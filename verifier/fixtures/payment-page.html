@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Payment Snapshot Fixture</title>
+  </head>
+  <body>
+    <h1>Payment Snapshot Fixture</h1>
+    <p>Public page for verifying payment coordinates exposed on a sales page.</p>
+
+    <script id="verify-data" type="application/json">
+      {
+        "taskType": "public-web-snapshot",
+        "payment": {
+          "paypalMe": "https://paypal.me/Relzelet/5USD",
+          "lightningAddress": "proofexit57@walletofsatoshi.com",
+          "fallbackBitcoinAddress": "bc1qy7xg9qrc2dl29hkark8ptavvqjtcrd93lg69uc"
+        },
+        "service": {
+          "name": "Five Dollar Builder",
+          "priceUsd": 5
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "accept-payment-page",
+  "url": "https://raw.githubusercontent.com/niuvezidel/five-dollar-builder-microdelivery/main/verifier/fixtures/payment-page.html",
+  "expectedResult": "ACCEPT",
+  "claim": {
+    "taskType": "public-web-snapshot",
+    "payment": {
+      "paypalMe": "https://paypal.me/Relzelet/5USD",
+      "lightningAddress": "proofexit57@walletofsatoshi.com",
+      "fallbackBitcoinAddress": "bc1qy7xg9qrc2dl29hkark8ptavvqjtcrd93lg69uc"
+    },
+    "service": {
+      "name": "Five Dollar Builder",
+      "priceUsd": 5
+    }
+  }
+}
