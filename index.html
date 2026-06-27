@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$5 Builder Micro-Delivery</title>
+  <meta name="description" content="Pay $5 for one focused builder micro-delivery: bug report, landing copy cleanup, invoice/quote template, or x402 endpoint starter.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #101820;
+      --muted: #4b5563;
+      --line: #d9e2e8;
+      --paper: #f8fafc;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --gold: #b7791f;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+    header {
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+    }
+    .wrap {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .top {
+      min-height: 74vh;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      gap: 32px;
+      align-items: center;
+      padding: 56px 0 36px;
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(34px, 6vw, 62px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 19px;
+      max-width: 650px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 28px 0;
+    }
+    a.button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 7px;
+      color: var(--white);
+      background: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    a.button.secondary {
+      color: var(--accent-dark);
+      background: #dff6f1;
+    }
+    .panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    }
+    .price {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .price strong {
+      font-size: 44px;
+      line-height: 1;
+    }
+    .price span {
+      color: var(--muted);
+    }
+    .list {
+      display: grid;
+      gap: 10px;
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .list li {
+      padding-left: 22px;
+      position: relative;
+    }
+    .list li:before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      position: absolute;
+      left: 0;
+      top: 0.68em;
+    }
+    main {
+      padding: 38px 0 60px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .item {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      min-height: 180px;
+    }
+    .item h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    .item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .note {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    code {
+      background: #eef2f6;
+      padding: 2px 5px;
+      border-radius: 4px;
+      overflow-wrap: anywhere;
+    }
+    @media (max-width: 820px) {
+      .top {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding-top: 36px;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <section>
+        <h1>$5 Builder Micro-Delivery</h1>
+        <p class="lead">Pay once and get one focused, usable deliverable: a bug report, landing-copy cleanup, quote/invoice mini-template, or x402 endpoint starter. Delivery is concise, direct, and built for founders, builders, and agent teams that need one concrete next step.</p>
+        <div class="actions">
+          <a class="button" href="https://paypal.me/Relzelet/5USD">Pay $5 with PayPal</a>
+          <a class="button secondary" href="lightning:proofexit57@walletofsatoshi.com">Pay Lightning</a>
+        </div>
+        <p class="note">After payment, send the task link or brief to the public Nostr seller key <code>d42822e9961a058b77a72386bc2cd785b151fbb9824161c4ea51c552d30ac872</code> or include a note in PayPal.</p>
+      </section>
+      <aside class="panel">
+        <div class="price"><strong>$5</strong><span>flat micro-delivery</span></div>
+        <ul class="list">
+          <li>One concrete deliverable, not a generic consultation.</li>
+          <li>Public proof links available for prior listings and samples.</li>
+          <li>PayPal: <code>paypal.me/Relzelet/5USD</code></li>
+          <li>Lightning: <code>proofexit57@walletofsatoshi.com</code></li>
+        </ul>
+      </aside>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section class="grid" aria-label="Offer menu">
+        <article class="item">
+          <h2>Bug Report</h2>
+          <p>One reproducible issue summary with steps, expected result, actual result, risk, and a suggested fix direction.</p>
+        </article>
+        <article class="item">
+          <h2>Copy Cleanup</h2>
+          <p>Rewrite one small landing section, README intro, product note, or launch post so the buyer action is clearer.</p>
+        </article>
+        <article class="item">
+          <h2>Quote Template</h2>
+          <p>A compact quote or invoice template with service scope, price, payment terms, and delivery acceptance notes.</p>
+        </article>
+        <article class="item">
+          <h2>x402 Starter</h2>
+          <p>A tiny paid-endpoint starter outline with request shape, response shape, pricing note, and verification checklist.</p>
+        </article>
+      </section>
+      <p class="note">This page was created for direct $5 sales. Existing product ZIPs and public offer links are tracked in <code>outputs/published-offers.md</code>.</p>
+    </div>
+  </main>
+</body>
+</html>
